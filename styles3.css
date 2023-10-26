@@ -1,0 +1,44 @@
+/* CSS stylesheet */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    text-align: center;
+    background: #9ab3f5;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  .outer {
+    width: 80%;
+    height: 500px;
+    background: #7579e7;
+    padding: 5%;
+    margin: 5%;
+  }
+  .inner-top {
+    width: 95%;
+    height: 50px;
+    background: #a3d8f4;
+    padding: 2.5%;
+  }
+  .inner-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    width: 95%;
+    height: 200px;
+    background: #19d3da;
+    padding: 2.5%;
+  }
+  .bvc-logo {
+    width: 40%;
+  }
+  /* .my-Image {
+  } */
+  p {
+    margin: 2px;
+  }

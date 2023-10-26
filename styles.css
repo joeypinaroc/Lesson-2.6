@@ -1,0 +1,20 @@
+/* CSS stylesheet */
+/* span {
+    display: block;
+  }
+  a {
+    display: block;
+  } */
+
+  /* CSS stylesheet */
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+
+
+  /* display:none does not render element, visibility:hidden renders element but doesnt make it visible */
+
+  /* if we set elements as flex, all elements will be in the main axis (1 row)

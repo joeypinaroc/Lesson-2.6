@@ -1,0 +1,28 @@
+/* CSS stylesheet */
+body {
+    text-align: center;
+    background-color: lightgray;
+  }
+  img {
+    display: inline-block;
+    width: 100px;
+  }
+  h1 {
+    display: block;
+    /* align-items: center;
+    text-align: center; */
+    margin: 20px auto;
+    width: 30%;
+    background-color: blue;
+  }
+  p {
+    margin: 20px auto;
+    width: 40%;
+    padding: 20px;
+  }
+  img + p {
+    display: inline-block;
+    text-align: left;
+  }
+
+/* align items either thru 1) margins, 2) flex, or 3) grid */
